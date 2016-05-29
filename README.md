@@ -39,7 +39,7 @@ When this line executes what will appear in the log is:
 ```
 'W' 'ARNING: something bad happened'
 ```
-The macro processor didn't see the `'` symbols as anything special and faithfully reproduced them in the log. So, how do we achieve the same effect in macro land? There are multiple solutions, but my personal favorite is:
+The macro processor didn't see the `'` symbols as anything special and faithfully reproduced them in the log. So, how do we achieve the `'W' 'ARNING'` effect in macro land? There are multiple solutions, but my personal favorite is:
 ```
 %put %str(W)ARNING: something bad happened;
 ```
