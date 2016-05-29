@@ -1,4 +1,4 @@
-This repository is related to an upcoming SESUG paper which is tentatively titled: *Cover Your Assumptions with Custom %str(W)ARNING Messages*. The content is not novel: similar material was presented at SGF in 2008 (**add link**) and 2013 (**add link**). However, I think it's such useful content that it merits being covered once again.
+This repository is related to an upcoming SESUG paper which is tentatively titled: *Cover Your Assumptions with Custom %str(W)ARNING Messages*. The content is not novel: similar material was presented at SGF in [2008](http://www2.sas.com/proceedings/forum2008/106-2008.pdf) and [2013](http://support.sas.com/resources/papers/proceedings13/350-2013.pdf). However, I think it's such useful content that it merits being covered once again.
 
 ## The Basic Idea
 ```
