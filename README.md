@@ -8,7 +8,7 @@ data dm;
    else if gender = 2 then sex = 'F';
 run;
 ```
-This code does not account for values of `gender` other than `1` and `2`. But, other values do show up in the data from time to time, be they missing, `3`, `99`, etc. The question is, how do we *easily* protect ourselves from such dastardly data? With custom WARNING messages, of course!
+This code does not account for values of `gender` other than `1` and `2`. But, other values do show up in the data from time to time: *missing*, `3`, `99`, etc. The question is, how do we *easily* protect ourselves from such dastardly data? With custom WARNING messages, of course!
 ```
 data dm;
    set raw.demo;
@@ -51,7 +51,7 @@ WARNING: something bad happened
 ## Closing Remarks
 There are many potential applications of custom warning messages (some of which will perhaps be covered in the upcoming paper). Typing out the initial bits of code to generate custom warning messages can be a bit tedious, so I encourage you to turn them into SAS abbreviations (Ctrl+Shift+A). Maybe you create two of them:
 ```
-putwarn    -> put 'W' 'ARNING: unexpected value for' ;
+putwarn    -> put 'W' 'ARNING: unexpected value for ' ;
 macputwarn -> %put %str(W)ARNING: ;
 ```
 Having these abbreviations at the ready will cause you to put more custom warning messages in your programs, making you a safer and faster programmer. 
