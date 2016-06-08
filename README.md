@@ -2,7 +2,7 @@ This repository is related to an upcoming SESUG paper which is tentatively title
 
 - *Cover Your Assumptions with Custom %str(W)ARNING Messages*
 
-The central concept is not novel: similar material was presented at SGF in [2008](http://www2.sas.com/proceedings/forum2008/106-2008.pdf) and [2013](http://support.sas.com/resources/papers/proceedings13/350-2013.pdf). 
+Assuming the title makes it past the censor board, the central concept is not novel: similar material was presented at SGF in [2008](http://www2.sas.com/proceedings/forum2008/106-2008.pdf) and [2013](http://support.sas.com/resources/papers/proceedings13/350-2013.pdf). 
 The only part that will be truly new in this paper is that many more potential applications of custom WARNING messages will be described. 
 
 ## The Basic Idea
