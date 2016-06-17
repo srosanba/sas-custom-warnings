@@ -6,6 +6,7 @@ Assuming the title makes it past the censor board, the central concept is not no
 The only part that will be truly new in this paper is that many more potential applications of custom WARNING messages will be described (covered in the [Wiki tab](https://github.com/srosanba/sas-customwarnings/wiki)). 
 
 ## The Basic Idea
+Suppose you need to convert a numeric variable `GENDER` into a character variable `SEX`.
 ```
 data dm;
    set raw.demo;
@@ -13,7 +14,7 @@ data dm;
    else if gender = 2 then sex = 'F';
 run;
 ```
-This code does not account for values of `gender` other than `1` and `2`. But, other values do show up in the data from time to time: *missing*, `3`, `99`, etc. The question is, how do we *easily* protect ourselves from such dastardly data? With custom WARNING messages, of course!
+This code does not account for values of `GENDER` other than `1` and `2`. But, other values do show up in the data from time to time: *missing*, `3`, `99`, etc. The question is, how do we *easily* protect ourselves from such dastardly data? With custom WARNING messages, of course!
 ```
 data dm;
    set raw.demo;
@@ -22,14 +23,14 @@ data dm;
    else put 'W' 'ARNING: unaccounted for value of ' gender=;
 run;
 ```
-If any values of `gender` other than `1` or `2` shows up in the data, this second `else` will generate a WARNING in the log. Something like, 
+If any values of `GENDER` other than `1` or `2` shows up in the data, this second `ELSE` will generate a WARNING in the log. Something like, 
 ```
 WARNING: unaccounted for value of gender=99
 ```
 As long as you are using log checking programs (and you *should* be using log checking programs), the dastardly data value is quickly identified and dealt with. 
 
 ## What's with the 'W' 'ARNING'?
-Suppose we were to write the second `else` as follows:
+Suppose we were to write the second `ELSE` as follows:
 ```
 else put 'WARNING: unaccounted for value of ' gender=;
 ```
