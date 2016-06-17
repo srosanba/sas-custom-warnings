@@ -3,7 +3,7 @@ This repository is related to an upcoming SESUG paper which is tentatively title
 - *Cover Your Assumptions with Custom %str(W)ARNING Messages*
 
 Assuming the title makes it past the censor board, the central concept is not novel: similar material was presented at SGF in [2008](http://www2.sas.com/proceedings/forum2008/106-2008.pdf) and [2013](http://support.sas.com/resources/papers/proceedings13/350-2013.pdf). 
-The only part that will be truly new in this paper is that many more potential applications of custom WARNING messages will be described. 
+The only part that will be truly new in this paper is that many more potential applications of custom WARNING messages will be described (covered in the [Wiki tab](https://github.com/srosanba/sas-customwarnings/wiki)). 
 
 ## The Basic Idea
 ```
@@ -54,7 +54,7 @@ WARNING: something bad happened
 ```
 
 ## Closing Remarks
-There are many potential applications of custom warning messages (these are covered in the [Wiki tab](https://github.com/srosanba/sas-customwarnings/wiki)). Typing out the first few keystrokes code to generate a custom WARNING messages can be a bit tedious (quotes, percents, and parens), so I encourage you to turn these fragments into SAS abbreviations (Ctrl+Shift+A). Maybe you create the following:
+There are many potential applications of custom warning messages (covered in the [Wiki tab](https://github.com/srosanba/sas-customwarnings/wiki)). Typing out the first few keystrokes code to generate a custom WARNING messages can be a bit tedious (quotes, percents, and parens), so I encourage you to turn these fragments into SAS abbreviations (Ctrl+Shift+A). Maybe you create the following:
 ```
 putwarn    -> put 'W' 'ARNING: unexpected value for ' ;
 macputwarn -> %put %str(W)ARNING: ;
