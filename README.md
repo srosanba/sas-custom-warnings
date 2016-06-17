@@ -58,5 +58,6 @@ There are many potential applications of custom warning messages (else, edit che
 ```
 putwarn    -> put 'W' 'ARNING: unexpected value for ' ;
 macputwarn -> %put %str(W)ARNING: ;
+ohbother   -> %put %str(W)ARNING: someone interrupted me in the middle of something';
 ```
 Having these abbreviations at the ready will cause you to put more custom warning messages in your programs, making you a safer and faster programmer. 
