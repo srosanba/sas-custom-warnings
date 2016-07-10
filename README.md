@@ -55,7 +55,7 @@ WARNING: something bad happened
 ```
 
 ## Closing Remarks
-There are many potential applications of custom warning messages (covered in the [Wiki tab](https://github.com/srosanba/sas-customwarnings/wiki)). Typing out the first few keystrokes code to generate a custom WARNING messages can be a bit tedious (quotes, percents, and parens), so I encourage you to turn these fragments into SAS abbreviations (Ctrl+Shift+A). Maybe you create the following:
+There are many potential applications of custom warning messages (covered in the [Wiki tab](https://github.com/srosanba/sas-customwarnings/wiki)). Typing out the first few keystrokes of code to generate a custom WARNING messages can be a bit tedious (quotes, percents, and parens), so I encourage you to turn these fragments into SAS abbreviations (Ctrl+Shift+A). Maybe you create the following:
 ```
 putwarn    -> put 'W' 'ARNING: unexpected value for ' ;
 macputwarn -> %put %str(W)ARNING: ;
