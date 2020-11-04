@@ -1,8 +1,8 @@
-This repository is related to an upcoming SESUG paper which is tentatively titled: 
+This repository is related to a [SESUG 2016 paper](https://analytics.ncsu.edu/sesug/2016/CC-269_Final_PDF.pdf) titled: 
 
 - *Cover Your Assumptions with Custom %str(W)ARNING Messages*
 
-Assuming the title makes it past the censor board, the central concept is not novel: similar material was presented at SGF in [2008](http://www2.sas.com/proceedings/forum2008/106-2008.pdf) and [2013](http://support.sas.com/resources/papers/proceedings13/350-2013.pdf). 
+The central concept is not novel: similar material was presented at SGF in [2008](http://www2.sas.com/proceedings/forum2008/106-2008.pdf) and [2013](http://support.sas.com/resources/papers/proceedings13/350-2013.pdf). 
 The only part that will be truly new in this paper is that many more potential applications of custom WARNING messages will be described (covered in the [Wiki tab](https://github.com/srosanba/sas-customwarnings/wiki)). 
 
 ## The Basic Idea
